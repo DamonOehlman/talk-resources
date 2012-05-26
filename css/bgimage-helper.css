@@ -18,10 +18,22 @@ section[data-bg]::after {
 
 section[data-bg] > h1 {
     position: absolute;
-    bottom: 10px;
+    bottom: 25px;
     color: transparent;
     width: 100%;
 }
 
 section[data-bg] > h1::after {
+}
+
+section .attribution {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    font-size: 12pt;
+}
+
+section .attribution a {
+    color: #e8e8e8 !important;
+    color: rgba(255, 255, 255, 0.5) !important;
 }
