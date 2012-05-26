@@ -9,7 +9,7 @@ function refreshBackgroundImages() {
 
         // if the attribution dif does not exist, then create it
         if (! attrDiv[0]) {
-            el.append('<div class="attribution">' + attribution + '</div>');
+            el.append('<div class="attribution"><a href="attribution" target="_blank">' + attribution + '</a></div>');
         }
     });
 }
