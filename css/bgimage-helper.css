@@ -28,7 +28,7 @@ section[data-bg] > h1::after {
 
 section .attribution {
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     width: 100%;
     font-size: 12pt;
 }
